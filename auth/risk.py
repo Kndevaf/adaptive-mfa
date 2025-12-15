@@ -1,4 +1,3 @@
-# auth/risk.py
 
 def calculate_risk(username: str, ip_address: str, device: str, login_hour: int, failed_attempts: int) -> int:
     """
