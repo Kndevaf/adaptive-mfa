@@ -11,7 +11,6 @@ def calculate_risk(username: str, ip_address: str, device: str, login_hour: int,
     """
     score = 0
 
-    # Placeholder logic
     if ip_address != "known_ip":
         score += 2
     if device != "known_device":
